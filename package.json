@@ -38,7 +38,9 @@
         "generate:api": "restful-react import --file schema.json --output ./src/apiClient.tsx",
         "postgenerate:api": "eslint --fix ./src/apiClient.tsx"
     },
-    "browserslist": ["extends @shopify/browserslist-config"],
+    "browserslist": [
+        "extends @shopify/browserslist-config"
+    ],
     "devDependencies": {
         "@testing-library/jest-dom": "^5.12.0",
         "@testing-library/react": "^11.2.6",
